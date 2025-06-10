@@ -10,7 +10,7 @@ YouBike in Taiwan faces operational challenges due to uneven bike distribution d
 |-|-|-|-|
 |林昱安|資科碩一|xxxxxxxxx|團隊的中流砥柱，一個人打十個| 
 |陳子昊|資科博一|113761501|團隊的中流砥柱，一個人打十個|
-|謝舜卿|教育碩一|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
+|謝舜卿|教育碩一|113152012|團隊的中流砥柱，一個人打十個|
 |楊智博|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
 
 ## Quick start
