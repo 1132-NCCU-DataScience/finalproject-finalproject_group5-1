@@ -24,9 +24,7 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
-# RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
 
-This project applies data-driven modeling to improve **bike availability** and **service reliability** in Taipei's YouBike public bike-sharing system. Using a combination of **historical bike data**, **weather data**, and **spatial information**, we built predictive models that enable smarter bike redistribution and contribute to environmental sustainability.
 
 ---
 
