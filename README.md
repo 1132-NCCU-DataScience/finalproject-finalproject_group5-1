@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HR2Xz9sU)
 # Group5 RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
-The goals of this project.
+YouBike in Taiwan faces operational challenges due to uneven bike distribution during peak hours, causing user dissatisfaction. This study uses historical data and predictive models, considering factors like temperature and humidity, to improve bike availability forecasts. Enhanced forecasting allows for better bike redistribution, increasing service reliability and ridership. Optimizing operations can offset over 16,000 tons of CO₂ annually, translating to NT$45 million in carbon credits, thus providing significant environmental and societal benefits.
 
 ## Contributors
 |組員|系級|學號|工作分配|
@@ -13,7 +13,7 @@ The goals of this project.
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+To run, simply run initial_code.py
 ```
 
 ## Folder organization and its related description
