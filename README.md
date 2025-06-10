@@ -8,16 +8,29 @@ YouBike in Taiwan faces operational challenges due to uneven bike distribution d
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|林昱安|資科碩一|xxxxxxxxx|團隊的中流砥柱，一個人打十個| 
+|林昱安|資科碩一|113753213|團隊的中流砥柱，一個人打十個| 
 |陳子昊|資科博一|113761501|團隊的中流砥柱，一個人打十個|
 |謝舜卿|教育碩一|113152012|團隊的中流砥柱，一個人打十個|
-|楊智博|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
+|楊智博|資訊四|110703017|團隊的中流砥柱，一個人打十個|
 
 ## Quick start
-Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
-```R
-To run, simply run initial_code.py
-```
+### 系統需求
+
+- 作業系統：Linux、macOS 或 Windows
+- Python：3.8+
+- R：4.2+
+- 記憶體：建議 8GB 以上
+- 網路連線：用於下載 YouBike 即時數據與氣象資料
+
+---
+
+### 安裝步驟
+
+#### 下載專案程式碼
+
+```bash
+git clone https://github.com/wenfi123/RideTime-YouBike-Availability.git
+cd RideTime-YouBike-Availability
 
 ## Folder organization and its related description
 ### code
