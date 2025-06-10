@@ -35,45 +35,6 @@ cd RideTime-YouBike-Availability
 ## Folder organization and its related description
 ### code
 ```
-.
-├── app                            # Application logic
-│   └── services                   # Specific services or feature modules
-│       ├── prediction_service.py  # Handles model prediction logic
-│       └── r_integration.py       # Python <-> R integration interface 
-├── app.R                          # R Shiny app entry point (for visualization)
-├── docker-compose.yml             # Multi-container setup (R + Python + database)
-├── Dockerfile                     # Docker image build configuration
-├── environment.yml                # Conda environment file for Python dependencies
-├── R                              # Folder for R scripts
-│   ├── analysis.R                 # Data processing, feature engineering, statistical analysis
-│   └── plots.R                    # Data visualization (heatmaps, line plots, bar charts)
-├── requirements                   # Requirements folders for different environments
-│   ├── base.txt                   # Base dependencies
-│   └── production.txt             # Production-specific dependencies
-├── requirements.txt               # Main Python dependency list
-├── notebooks                      # Jupyter or R notebooks for EDA and modeling
-│   ├── EDA_notebook.ipynb         # Exploratory Data Analysis notebook
-│   └── Modeling_pipeline.ipynb    # Notebook for model training and evaluation
-├── src                            # Modular source code
-│   ├── data_processing            # Data cleaning, merging, feature engineering scripts
-│   ├── modeling                   # Scripts for training and evaluating models
-│   ├── visualization              # Scripts to generate project figures
-│   └── utils.py                   # Utility functions
-├── results                        # Model outputs and visualization results
-│   ├── model_outputs              # Saved trained models
-│   └── figures                    # Figures included in the poster
-├── server.R                       # Backend logic for R Shiny app 
-├── scripts                        # General helper scripts (e.g., data download or monitoring)
-│   ├── data_collection.py         # Script to automate data collection (YouBike + weather)
-│   └── system_analysis.py         # System performance or additional analysis
-├── tests                          # Unit tests for Python/R code
-├── docs                           # Project documentation
-│   ├── folder_structure.md        # Folder organization and description
-│   ├── pipeline_description.md    # Detailed description of the data pipeline
-│   └── project_poster.pdf         # Final version of the project poster
-├── .gitignore                     # Files/folders to ignore in Git
-├── README.md                      # Project overview, key findings, folder organization
-└── LICENSE                        # License information
 
 ---
 
