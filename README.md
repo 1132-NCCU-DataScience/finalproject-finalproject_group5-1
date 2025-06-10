@@ -1,6 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HR2Xz9sU)
-# Group5 
-# RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
+# [Group5] RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
 YouBike in Taiwan faces operational challenges due to uneven bike distribution during peak hours, causing user dissatisfaction. This study uses historical data and predictive models, considering factors like temperature and humidity, to improve bike availability forecasts. Enhanced forecasting allows for better bike redistribution, increasing service reliability and ridership. Optimizing operations can offset over 16,000 tons of CO₂ annually, translating to NT$45 million in carbon credits, thus providing significant environmental and societal benefits.
 # poster
 ![This is IT](./results/this%20is%20IT.png)
@@ -21,37 +20,6 @@ To run, simply run initial_code.py
 ```
 
 ## Folder organization and its related description
-RideTime-YouBike-Availability/
-│
-├── data/                     # Data files
-│   ├── raw/                  # Original raw data (YouBike station data, TDX data, weather data)
-│   └── processed/            # Cleaned and merged data used for modeling
-│
-├── notebooks/                # Jupyter or R notebooks for exploratory analysis and modeling
-│   ├── EDA_notebook.ipynb    # Exploratory Data Analysis of YouBike and weather data
-│   └── Modeling_pipeline.ipynb  # Full pipeline from feature engineering to model training
-│
-├── src/                      # Source code (Python scripts or R scripts)
-│   ├── data_processing/      # Scripts for data cleaning, merging, feature engineering
-│   ├── modeling/             # Scripts for model training and evaluation (RandomForest, CatBoost, XGBoost, LightGBM)
-│   ├── visualization/        # Scripts for generating figures used in the poster (heatmaps, line plots, bar charts)
-│   └── utils.py              # Utility functions
-│
-├── results/                  # Outputs and results
-│   ├── model_outputs/        # Saved trained models
-│   └── figures/              # All final figures used in poster (heatmaps, scatter plots, bar charts, etc.)
-│
-├── docs/                     # Project documentation
-│   ├── folder_structure.md   # Folder organization and description (this file)
-│   ├── pipeline_description.md  # Detailed description of data processing and modeling pipeline
-│   └── project_poster.pdf    # Final version of the project poster
-│
-├── tests/                    # Unit tests for code in src/
-│
-├── .gitignore
-├── README.md                 # Project overview, key findings, folder organization, how to run the project
-├── requirements.txt          # List of required Python/R packages
-└── LICENSE                   # License information
 
 
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
