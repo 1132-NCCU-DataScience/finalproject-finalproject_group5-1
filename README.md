@@ -11,7 +11,7 @@ YouBike in Taiwan faces operational challenges due to uneven bike distribution d
 |林昱安|資科碩一|113753213|負責資料蒐集與整併流程設計，建立 YouBike + 天氣數據管道，確保資料品質與一致性 | 
 |陳子昊|資科博一|113761501|建立機器學習模型（RandomForest、XGBoost、LightGBM、CatBoost），進行模型訓練與效能評估|
 |謝舜卿|教育碩一|113152012|資料視覺化與報表製作，產出分析圖表（熱圖、時序圖、區域可用性圖），協助 Poster 設計|
-|楊智博|資訊四|110703017|撰寫專案自動化流程（scripts/、src/visualization/），協助整體程式架構設計與專案整合|
+|楊智博|資訊四|110703017|繪製各 YouBike 站點之時間熱度圖；shiny app 整合|
 
 ## Quick start
 ### 系統需求
