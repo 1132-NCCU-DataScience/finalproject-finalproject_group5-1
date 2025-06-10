@@ -3,7 +3,11 @@
 YouBike in Taiwan faces operational challenges due to uneven bike distribution during peak hours, causing user dissatisfaction. This study uses historical data and predictive models, considering factors like temperature and humidity, to improve bike availability forecasts. Enhanced forecasting allows for better bike redistribution, increasing service reliability and ridership. Optimizing operations can offset over 16,000 tons of CO₂ annually, translating to NT$45 million in carbon credits, thus providing significant environmental and societal benefits.
 # poster
 ![This is IT](./results/this%20is%20IT.png)
+# Prediction Result & input data
+![Prediction Result](docs/prediction.gif)
+![Time heatmap](docs/time_heatmap.gif)
 
+![input data Dashboard](docs/dashboard.gif)
 
 ## Contributors
 |組員|系級|學號|工作分配|
@@ -29,8 +33,12 @@ YouBike in Taiwan faces operational challenges due to uneven bike distribution d
 #### 下載專案程式碼
 
 ```bash
-git clone https://github.com/wenfi123/RideTime-YouBike-Availability.git
-cd RideTime-YouBike-Availability
+git clone https://github.com/1132-NCCU-DataScience/finalproject-finalproject_group5-1.git
+cd code
+R
+```
+```R console
+shiny::runApp(".")
 ```
 ## Folder organization and its related description
 ### code
