@@ -24,22 +24,41 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
+# RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
 
-### data
-* Input
-  * Source
-  * Format
-  * Size
+This project applies data-driven modeling to improve **bike availability** and **service reliability** in Taipei's YouBike public bike-sharing system. Using a combination of **historical bike data**, **weather data**, and **spatial information**, we built predictive models that enable smarter bike redistribution and contribute to environmental sustainability.
 
-### code
-* Analysis steps
-* Which method or package do you use?
-* How do you perform training and evaluation?
-  * Cross-validation, or extra separated data
-* What is a null model for comparison?
+---
 
-### results
-* What is your performance?
+## Data Collection
+
+This project integrates multiple data sources to predict bike availability in Taipei’s YouBike system. We collected real-time and historical YouBike station data from **Taipei City Open Data** and **Transport Data eXchange (TDX)**, providing minute-level bike availability and detailed station information. Additionally, we used **OpenWeather** data to obtain hourly records of **temperature** and **humidity**, allowing us to incorporate environmental factors into our models. The dataset spans a **30-day period** from April to May and includes over **5 million observations** of bike activity and **337k weather records**. To merge these sources effectively, we processed timestamps and matched each YouBike station to its nearest weather observation station using the **Haversine distance formula**.
+
+---
+
+## Data Processing
+
+After initial collection, the data underwent several processing steps to ensure quality and consistency. We removed rows with missing values, reducing the dataset from over **5 million** to approximately **4.33 million** observations. We then extracted temporal features such as **hour**, **weekday**, and **date**. To better model cyclical patterns in bike usage, both **hour** and **weekday** were encoded using **sinusoidal (sin/cos) transformations**. In addition to time-based features, we included spatial features: **district** and **location name**, which were one-hot encoded to reflect local differences in bike demand. Exploratory analysis highlighted that bike availability varied by district, consistent with variations in land use and station density across Taipei.
+
+---
+
+## Feature Selection
+
+We performed exploratory data analysis to inform our feature selection. Temporal usage patterns showed clear **hourly fluctuations** and differences between **weekdays and weekends**. Moreover, changes in **temperature** and **humidity** correlated with shifts in rental and return patterns — hotter and more humid days generally led to more bikes being rented but fewer being returned. However, individual feature correlations with availability were relatively low, suggesting that **multi-feature modeling** would be necessary. Based on these insights, we selected a set of **temporal (hour, weekday)**, **spatial (longitude, latitude, district, location type)**, and **environmental (temperature, humidity)** features to build our predictive models.
+
+---
+
+## Prediction
+
+We framed the bike availability prediction as a **multi-class classification** task, where the goal is to predict the number of rentable and returnable bikes in intervals of **5-bike units**. We experimented with four **tree-based ensemble models** — **Random Forest**, **CatBoost**, **XGBoost**, and **LightGBM** — using spatial, temporal, climatological, and textual features as inputs. Our evaluation metric was **AUC (Area Under the Curve)**. Results showed that CatBoost consistently achieved the best performance across tasks. Ablation studies demonstrated that **spatial and temporal features alone** provided robust predictive power, though adding **location name** significantly improved results in low-data scenarios. These findings suggest that **tree-based models** are highly effective for operational forecasting in public bike systems, enabling better bike redistribution strategies and contributing to both **user satisfaction** and **environmental impact**.
+
+---
+
+## Impact
+
+This work demonstrates the potential of **data-driven optimization** to improve the efficiency and sustainability of public bike-sharing systems. By enhancing operational forecasting, the models we developed can help increase user satisfaction, reduce operational costs, and contribute to substantial **CO₂ emission reductions** — supporting both **urban mobility** and **environmental goals**.
+
+
 * Is the improvement significant?
 
 ## References
