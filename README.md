@@ -65,4 +65,4 @@ This work demonstrates the potential of **data-driven optimization** to improve 
 
 ## References
 * Packages you use
-* Related publications
+* Lai, W.-A. (2024) 未來騎YouBike 既環保又可以賺錢. Taiwan Carbon Sustainability and Innovation Foundation. https://www.tcsif.org/news_detail/TCSIF-NEW11
