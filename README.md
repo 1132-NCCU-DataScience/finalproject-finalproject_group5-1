@@ -2,7 +2,8 @@
 # Group5 RideTime: Enhancing Bike Availability Through Statistical Modeling of Usage and Environmental Factors
 YouBike in Taiwan faces operational challenges due to uneven bike distribution during peak hours, causing user dissatisfaction. This study uses historical data and predictive models, considering factors like temperature and humidity, to improve bike availability forecasts. Enhanced forecasting allows for better bike redistribution, increasing service reliability and ridership. Optimizing operations can offset over 16,000 tons of CO₂ annually, translating to NT$45 million in carbon credits, thus providing significant environmental and societal benefits.
 # poster
-results/this is IT.png
+![This is IT](./results/"this is IT.png")
+
 
 ## Contributors
 |組員|系級|學號|工作分配|
