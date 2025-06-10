@@ -99,7 +99,8 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 ## Data Collection
 
 This project integrates multiple data sources to predict bike availability in Taipei’s YouBike system. We collected real-time and historical YouBike station data from **Taipei City Open Data** and **Transport Data eXchange (TDX)**, providing minute-level bike availability and detailed station information. Additionally, we used **OpenWeather** data to obtain hourly records of **temperature** and **humidity**, allowing us to incorporate environmental factors into our models. The dataset spans a **30-day period** from April to May and includes over **5 million observations** of bike activity and **337k weather records**. To merge these sources effectively, we processed timestamps and matched each YouBike station to its nearest weather observation station using the **Haversine distance formula**.
-![Data Overview](Data%20Sources.png)
+![Data Overview](Datas.png)
+
 
 
 ---
