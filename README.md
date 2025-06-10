@@ -64,12 +64,43 @@ This work demonstrates the potential of **data-driven optimization** to improve 
 * Is the improvement significant?
 
 ## References
-* 📊 Visualization
-  ggplot2 — general plotting (scatter plots, line plots, bar charts, heatmaps)
-  ggpubr — publication-ready enhancements to ggplot2
-  pheatmap — simple and flexible heatmaps
-  ComplexHeatmap — advanced heatmaps with annotations
-  DiagrammeR — for flowcharts and architecture diagrams
-  rpart.plot — for decision tree visualization
-  cowplot or patchwork — combining multiple ggplot2 plots
+### 📦 R Packages Used
+
+#### Visualization
+- [ggplot2](https://ggplot2.tidyverse.org/)
+- [ggpubr](https://rpkgs.datanovia.com/ggpubr/)
+- [pheatmap](https://cran.r-project.org/web/packages/pheatmap/index.html)
+- [ComplexHeatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/)
+- [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/)
+- [rpart.plot](https://cran.r-project.org/web/packages/rpart.plot/index.html)
+
+#### Time Series & Date Handling
+- [lubridate](https://lubridate.tidyverse.org/)
+- [tsibble](https://tsibble.tidyverts.org/)
+- [timetk](https://business-science.github.io/timetk/)
+
+#### Statistical Analysis
+- [psych](https://cran.r-project.org/web/packages/psych/index.html)
+- [car](https://cran.r-project.org/web/packages/car/index.html)
+- [broom](https://broom.tidymodels.org/)
+- [gt](https://gt.rstudio.com/)
+- [kableExtra](https://haozhu233.github.io/kableExtra/)
+
+### Machine Learning Models
+- [randomForest](https://cran.r-project.org/web/packages/randomForest/index.html)
+- [ranger](https://cran.r-project.org/web/packages/ranger/index.html)
+- [catboost](https://catboost.ai/docs/concepts/r-installation-installing-catboost-on-linux.html)
+- [xgboost](https://cran.r-project.org/web/packages/xgboost/index.html)
+- [lightgbm](https://github.com/microsoft/LightGBM/tree/master/R-package)
+
+### Model Evaluation
+- [yardstick](https://yardstick.tidymodels.org/)
+- [ROCR](https://cran.r-project.org/web/packages/ROCR/index.html)
+- [pROC](https://cran.r-project.org/web/packages/pROC/index.html)
+
+### Data Manipulation
+- [dplyr](https://dplyr.tidyverse.org/)
+- [tidyr](https://tidyr.tidyverse.org/)
+- [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
+
 * Lai, W.-A. (2024) 未來騎YouBike 既環保又可以賺錢. Taiwan Carbon Sustainability and Innovation Foundation. https://www.tcsif.org/news_detail/TCSIF-NEW11
