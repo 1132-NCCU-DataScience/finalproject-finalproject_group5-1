@@ -126,9 +126,7 @@ We framed the bike availability prediction as a **multi-class classification** t
 ## Impact
 
 This work demonstrates the potential of **data-driven optimization** to improve the efficiency and sustainability of public bike-sharing systems. By enhancing operational forecasting, the models we developed can help increase user satisfaction, reduce operational costs, and contribute to substantial **CO₂ emission reductions** — supporting both **urban mobility** and **environmental goals**.
-
-
-* Is the improvement significant?
+  This study demonstrates the effectiveness of tree-based ensemble models in predicting YouBike availability using temporal, spatial, and environmental features. By identifying key usage patterns and leveraging high-frequency data, the proposed approach enhances operational forecasting and supports smarter bike redistribution. These improvements not only boost user satisfaction but also contribute to significant environmental and economic gains.
 
 ## References
 ### 📦 R Packages Used
