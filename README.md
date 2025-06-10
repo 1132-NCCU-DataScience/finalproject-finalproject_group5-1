@@ -64,5 +64,12 @@ This work demonstrates the potential of **data-driven optimization** to improve 
 * Is the improvement significant?
 
 ## References
-* Packages you use
+* 📊 Visualization
+  ggplot2 — general plotting (scatter plots, line plots, bar charts, heatmaps)
+  ggpubr — publication-ready enhancements to ggplot2
+  pheatmap — simple and flexible heatmaps
+  ComplexHeatmap — advanced heatmaps with annotations
+  DiagrammeR — for flowcharts and architecture diagrams
+  rpart.plot — for decision tree visualization
+  cowplot or patchwork — combining multiple ggplot2 plots
 * Lai, W.-A. (2024) 未來騎YouBike 既環保又可以賺錢. Taiwan Carbon Sustainability and Innovation Foundation. https://www.tcsif.org/news_detail/TCSIF-NEW11
