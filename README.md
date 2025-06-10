@@ -90,8 +90,8 @@ cd RideTime-YouBike-Availability
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
-[View Final Presentation (PDF)]([Final_Presentation.pdf](https://github.com/1132-NCCU-DataScience/finalproject-finalproject_group5-1/blob/main/Final%20Presentation.pdf?raw=true
-))
+[View Final Presentation (PDF)][Final_Presentation.pdf](https://github.com/1132-NCCU-DataScience/finalproject-finalproject_group5-1/blob/main/Final%20Presentation.pdf?raw=true
+)
   * 
 
 
