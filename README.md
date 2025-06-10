@@ -21,6 +21,39 @@ To run, simply run initial_code.py
 ```
 
 ## Folder organization and its related description
+RideTime-YouBike-Availability/
+│
+├── data/                     # Data files
+│   ├── raw/                  # Original raw data (YouBike station data, TDX data, weather data)
+│   └── processed/            # Cleaned and merged data used for modeling
+│
+├── notebooks/                # Jupyter or R notebooks for exploratory analysis and modeling
+│   ├── EDA_notebook.ipynb    # Exploratory Data Analysis of YouBike and weather data
+│   └── Modeling_pipeline.ipynb  # Full pipeline from feature engineering to model training
+│
+├── src/                      # Source code (Python scripts or R scripts)
+│   ├── data_processing/      # Scripts for data cleaning, merging, feature engineering
+│   ├── modeling/             # Scripts for model training and evaluation (RandomForest, CatBoost, XGBoost, LightGBM)
+│   ├── visualization/        # Scripts for generating figures used in the poster (heatmaps, line plots, bar charts)
+│   └── utils.py              # Utility functions
+│
+├── results/                  # Outputs and results
+│   ├── model_outputs/        # Saved trained models
+│   └── figures/              # All final figures used in poster (heatmaps, scatter plots, bar charts, etc.)
+│
+├── docs/                     # Project documentation
+│   ├── folder_structure.md   # Folder organization and description (this file)
+│   ├── pipeline_description.md  # Detailed description of data processing and modeling pipeline
+│   └── project_poster.pdf    # Final version of the project poster
+│
+├── tests/                    # Unit tests for code in src/
+│
+├── .gitignore
+├── README.md                 # Project overview, key findings, folder organization, how to run the project
+├── requirements.txt          # List of required Python/R packages
+└── LICENSE                   # License information
+
+
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
@@ -28,6 +61,7 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 * Any related document for the project, i.e.,
   * discussion log
   * software user guide
+  * 
 
 
 ---
