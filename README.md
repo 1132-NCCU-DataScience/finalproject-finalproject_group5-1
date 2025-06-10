@@ -35,6 +35,39 @@ cd RideTime-YouBike-Availability
 ## Folder organization and its related description
 ### code
 ```
+finalproject-finalproject_group5-1/
+├── code/                           # Core scripts (R + Python)
+│   ├── app.R                       # R Shiny dashboard entry point
+│   ├── data_converter.py          # Utility to convert data format
+│   ├── inference.py               # Inference logic or model usage
+│   ├── initial_code.py            # Early stage exploratory script
+│   ├── long_lat_gen.py            # Latitude/longitude generator
+│   ├── model_converter.py         # Model format conversion tool
+│   ├── outlier_finder.py          # Outlier detection logic
+│   ├── performance_plot.py        # Visualization of model performance
+│   ├── pred_data_prep.py          # Prediction data preprocessing
+│   └── quest.py                   # Questionnaire or interaction analysis
+│
+├── data/                           # Raw input datasets
+│   ├── Weather_0424-0524.csv.xz   # Weather observation data (compressed)
+│   ├── YouBike_availability_0424-0524.csv.xz  # YouBike availability records (compressed)
+│   ├── ground_truth_v2.csv        # Ground truth labels
+│   ├── input_v2.csv               # Processed input for prediction
+│   ├── station_base_info.csv      # Basic station metadata
+│   └── station_base_info_s.csv    # Supplementary station metadata
+│
+├── docs/                           # Project documentation and reports
+│   └── 1132_DS-FP_group5.pdf       # Final written report or project brief
+│
+├── results/                        # Output results (visuals, predictions)
+│   └── this is IT.png              # Final image or result visual
+│
+├── Datas.png                       # Data overview image (consider moving to /docs or /results)
+├── Final Presentation.pdf          # Additional presentation slide deck
+├── image                           # Raw image file (consider moving to /results or /docs)
+├── image2.png                      # Supporting figure (likely used in README or presentation)
+├── README.md                       # Project overview, goals, usage instructions
+└── .gitignore                      # Git tracking exclusion rules
 
 ---
 
