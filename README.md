@@ -45,15 +45,18 @@ shiny::runApp(".")
 ```
 finalproject-finalproject_group5-1/
 ├── code/                           # Core scripts (R + Python)
+│   ├── prediction/                  # Prediction Scripts
+│   │   ├── csv_merger.py              # for building prediction input csv
+│   │   ├── data_converter.py          # Utility to convert data format
+│   │   ├── inference.py               # Inference given model weights and input csv
+│   │   ├── initial_code.py            # For training model
+│   │   ├── long_lat_gen.py            # Latitude/longitude generator
+│   │   ├── performance_plot.py        # Visualization of model performance
+│   │   ├── pred_data_prep.py          # Model Prediction csv to final prediction data preprocessing
+│   ├── analysis/                    # Analysis Scripts
+│   │   ├── outlier_finder.py          # Outlier detection logic
 │   ├── app.R                       # R Shiny dashboard entry point
-│   ├── data_converter.py          # Utility to convert data format
-│   ├── inference.py               # Inference logic or model usage
-│   ├── initial_code.py            # Early stage exploratory script
-│   ├── long_lat_gen.py            # Latitude/longitude generator
-│   ├── model_converter.py         # Model format conversion tool
-│   ├── outlier_finder.py          # Outlier detection logic
-│   ├── performance_plot.py        # Visualization of model performance
-│   ├── pred_data_prep.py          # Prediction data preprocessing
+│   ├── app_v2.R                    # R Shiny App with prediction interface given csv file
 │   └── quest.py                   # Questionnaire or interaction analysis
 │
 ├── data/                           # Raw input datasets
@@ -63,6 +66,8 @@ finalproject-finalproject_group5-1/
 │   ├── input_v2.csv               # Processed input for prediction
 │   ├── station_base_info.csv      # Basic station metadata
 │   └── station_base_info_s.csv    # Supplementary station metadata
+│   └── prediction_in.csv          # Example input for prediction
+│   └── merged_final_output.csv    # Example post processing output
 │
 ├── docs/                           # Project documentation and reports
 │   └── 1132_DS-FP_group5.pdf       # Final written report or project brief
